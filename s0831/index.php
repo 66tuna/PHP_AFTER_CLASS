@@ -5,6 +5,7 @@
 // echo "안녕하세요 내 이름은 {$age} 입니다.";//문자열 그대로 출력.
 
 
+
 // $str = '안녕하세요';
 // $str2 = 'abcde';
 // $str3 = "abcdeabcde";
@@ -15,6 +16,7 @@
 // echo mb_strpos($str, "하");
 
 
+
 // $str = "<a href='#'>네이버</a>";
 // $replaced = str_replace("네이버", "구글", $str);
 //                          찾을꺼    바꿀꺼   원본
@@ -22,9 +24,11 @@
 // echo $replaced . "<br>";
 
 
+
 // $list = ["a", "e", "i", "o", "u", "W"];
 // $replaced = str_replace($list, "", "Hello World");
 // echo $replaced . "<br>";
+
 
 
 // $str = "건강을 위해서라면 매일 야채와 과일, 물을 먹어야 한다.";
@@ -34,6 +38,7 @@
 // echo $replaced;
 
 
+
 // $str = "abcdefg";//0부터 시작
 // echo substr($str, 0, 3) . "<br>"; //abc
 // echo substr($str, 4, 2) . "<br>";//ef
@@ -41,6 +46,7 @@
 // echo substr($str, -2, 2). "<br>";//fg
 // echo substr($str, -3). "<br>";
 // echo substr($str, 3) . "<br>";
+
 
 
 // $department = ['소프트웨어', '전자제어', '정보통신', '바이오화확'];
@@ -61,6 +67,7 @@
 // var_dump($department); //배열 출력할때는 var_dump를 쓴다.
 // var_dump($newArr);
 // echo "</pre>";
+
 
 
 // $department = ['소프트웨어', '전자제어', '정보통신', '바이오화확'];
