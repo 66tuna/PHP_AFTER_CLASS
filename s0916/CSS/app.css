@@ -11,6 +11,7 @@ body{
 a{
     color: #000;
     transition: all .4s;
+    border-radius: 5px;
 }
 
 a:hover{

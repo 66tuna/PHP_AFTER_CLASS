@@ -35,7 +35,7 @@
 <body>
     <div class="contents">
         <?php
-        require_once("main.php");
+        require_once("viewSql.php");
         foreach ($list as $data) {
         ?>
 

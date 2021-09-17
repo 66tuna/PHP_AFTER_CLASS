@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="./CSS/app.css">
     <title>Document</title>
     <style>
+        body{
+            margin-top:80px;
+        }
+
         .update{
             margin-top: 30px;
             position: absolute;
@@ -24,7 +28,7 @@
 
 <body>
     <?php
-        require_once("main.php");
+        require_once("viewSql.php");
     ?>
 
     <table>
